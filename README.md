@@ -1,2 +1,3 @@
 # LaunchFrame
-the docker images for building anything in web
+
+the docker images for building anything of web development
