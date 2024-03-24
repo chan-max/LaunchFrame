@@ -7,3 +7,6 @@ docker run -d --name mongo -v /usr/workspace/docker/mongodb:/data/db -p 27017:27
 
 # postgressql
 docker run --name postgres -e POSTGRES_PASSWORD=666666 -v /usr/workspace/docker/postgres:/var/lib/postgresql/data -p 5432:5432 -d postgres
+
+# redis
+docker run --name redis -v /usr/workspace/docker/redis:/data -p 6379:6379 -d redis redis-server --appendonly yes
